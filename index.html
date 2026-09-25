@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VC Trans</title>
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;600;700&family=Poppins:wght@300;700&display=swap"
+        rel="stylesheet">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="top-bar-inner">
+            <div class="top-bar-contact">
+                <a href="mailto:mail@vctrans.net"><i class="fas fa-envelope"></i> mail@vctrans.net</a>
+            </div>
+            <div class="top-bar-social">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fas fa-rss"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header Section -->
+    <header id="site-header">
+        <div class="header-inner">
+            <div class="logo">
+                <a href="#home">
+                    <img src="assets/images/vctraders-logo.png" alt="Vancouver Trans LLC Logo">
+                </a>
+            </div>
+
+            <nav class="main-nav">
+                <ul class="nav-list">
+                    <li><a href="#home">Home</a></li>
+                    <li class="has-dropdown">
+                        <a href="#services">Services <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown">
+                            <li><a href="#airfreight">Air Freight</a></li>
+                            <li><a href="#seafreight">Sea Freight</a></li>
+                            <li><a href="#landfreight">Land Freight</a></li>
+                            <li><a href="#warehouse">Warehousing</a></li>
+                            <li><a href="#customshouse">Custom House Solution</a></li>
+                            <li><a href="#projectfwd">Project Forwarding</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="assets/pdf/Filed-Tariff-Report.pdf" target="_blank">Filed Tariffs</a></li>
+                    <li><a href="#contactus">Contact us</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-right">
+                <div class="mobile-menu-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Video Section -->
+    <section id="home" class="hero-section">
+        <video autoplay muted loop playsinline class="hero-video">
+            <source src="assets/videos/logistics.mp4" type="video/mp4">
+        </video>
+        <div class="hero-overlay"></div>
+    </section>
+
+    <!-- Intro Yellow Section -->
+    <section id="intro" class="intro-section">
+        <div class="container intro-inner">
+            <div class="intro-text">
+                <p>Vancouver Trans LLC, an ISO certified global freight agency, is based in Dubai, the commercial hub of
+                    the Gulf region. With first touch experience extending over a quarter of a century in total freight
+                    management and state of the art infrastructural capabilities, Vancouver Trans LLC provides
+                    comprehensive client-centric solutions with total customer satisfaction.</p>
+            </div>
+            <div class="intro-btn">
+                <a href="#contactus" class="btn btn-red">Get a quote</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Grid Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="services-grid">
+
+                <!-- Air Freight -->
+                <div class="service-card" id="airfreight">
+                    <div class="service-image">
+                        <img src="assets/images/air-freight.png" alt="Air Freight">
+                    </div>
+                    <div class="service-content">
+                        <h3>Air Freight</h3>
+                        <p>An extensive network of agents around the globe provides us with presence at all the major
+                            airports in the world. Backed by our strategic alliances and partnerships, we place before
+                            our customers, time sensitive services from cargo pickup from shipper's door to receiver's
+                            door.</p>
+                    </div>
+                </div>
+
+                <!-- Sea Freight -->
+                <div class="service-card" id="seafreight">
+                    <div class="service-image">
+                        <img src="assets/images/sea-freight.png" alt="Sea Freight">
+                    </div>
+                    <div class="service-content">
+                        <h3>Sea Freight</h3>
+                        <p>From unitised cargo (both FCL and LCL) to vessel chartering to barge services, from general
+                            to temperature controlled to hazardous cargoes, Vancouver Trans LLC offers the full spectrum
+                            of ocean freight services. Our experience of over a quarter of a century has assisted us to
+                            enter into strategic associations with some of the major ocean carriers and this has given
+                            us cost effective access to high volume and limited capacity corridors.</p>
+                    </div>
+                </div>
+
+                <!-- Land Freight -->
+                <div class="service-card" id="landfreight">
+                    <div class="service-image">
+                        <img src="assets/images/land-freight.png" alt="Land Freight">
+                    </div>
+                    <div class="service-content">
+                        <h3>Land Freight</h3>
+                        <p>What sets Vancouver Trans LLC apart from most of its competitors is its asset-based trucking
+                            capabilities. A fleet which comprises standard vehicles of varying capacities to special
+                            purpose carriers for oversize cargoes, enables Vancouver Trans LLC to offer its customers,
+                            customised, cost effective and reliable trucking solutions of superior quality.</p>
+                    </div>
+                </div>
+
+                <!-- Warehousing -->
+                <div class="service-card" id="warehouse">
+                    <div class="service-image">
+                        <img src="assets/images/warehouse.png" alt="Warehousing and Distribution">
+                    </div>
+                    <div class="service-content">
+                        <h3>Warehousing and Distribution</h3>
+                        <p>Vancouver Trans LLC has contracted dedicated cargo care facilities in Dubai to accommodate
+                            general as well as temperature controlled cargoes. Our service spectrum encompasses
+                            receiving the cargo, warehousing, pick and pack services, kitting and inserts, cartage,
+                            distribution and delivery services, inventory control and total document management.</p>
+                    </div>
+                </div>
+
+                <!-- Custom House -->
+                <div class="service-card" id="customshouse">
+                    <div class="service-image">
+                        <img src="assets/images/custom-house.jpg" alt="Custom House Solutions">
+                    </div>
+                    <div class="service-content">
+                        <h3>Custom House Solutions</h3>
+                        <p>As a registered customer broker in Dubai, Vancouver Trans LLC is equipped to provide
+                            solutions for every need of the customer. Further its association with cross border customs
+                            clearance agents and its global network of agents enable Vancouver Trans LLC to offer
+                            Customs clearance solutions across the world where laws and requirement are ever-changing.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Project Forwarding -->
+                <div class="service-card" id="projectfwd">
+                    <div class="service-image">
+                        <img src="assets/images/project-forwarding.jpg" alt="Project Forwarding">
+                    </div>
+                    <div class="service-content">
+                        <h3>Project Forwarding</h3>
+                        <p>The project forwarding professionals at Vancouver Trans LLC have, behind them, a track record
+                            of moving some of the most challenging cargoes, within the Middle East region and outside.
+                            Be it a Terex CC 8800, the largest of cranes, or the entire ground granulated blast furnace
+                            slag supply for a sea port project or the relocation of offshore oil field equipment, the
+                            project team at Vancouver Trans LLC has done it all. They are adept in all aspects of a
+                            project move such as routing and mapping, document management, liaison with statutory
+                            bodies, carrier selection, cargo management, costing and accounting.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Faster Safer Smoother Section -->
+    <section class="banner-section">
+        <div class="container banner-inner">
+            <div class="banner-content">
+                <h2>FASTER, SAFER,<br>SMOOTHER</h2>
+                <a href="#services" class="btn btn-blue">Our Services</a>
+            </div>
+            <div class="banner-badge">
+                <img src="assets/images/iso-150x150.png" alt="ISO Certified IAS">
+            </div>
+        </div>
+    </section>
+
+    <!-- Sea Video Section -->
+    <section class="sea-video-section">
+        <video autoplay muted loop playsinline class="sea-video">
+            <source src="assets/videos/sea.mp4" type="video/mp4">
+        </video>
+        <div class="sea-overlay">
+            <h2>CONNECTING THE WORLD AROUND YOU</h2>
+        </div>
+    </section>
+
+    <!-- Contact & Map Section -->
+    <section id="contactus" class="contact-section">
+        <div class="map-container">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1804.195736995518!2d55.297099455747!3d25.257413235454003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f433b903adf3b%3A0x9fb693268cbdbce1!2sAl%20Musallah%20tower%20office%20entrance!5e0!3m2!1sen!2sin!4v1653563718845!5m2!1sen!2sin"
+                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div class="contact-form-container">
+            <div class="form-wrapper">
+                <h3>Get in Touch with us</h3>
+                <form action="#" class="get-quote-form">
+                    <div class="form-row">
+                        <input type="text" placeholder="Name" required>
+                        <input type="tel" placeholder="Mobile Number">
+                    </div>
+                    <div class="form-row">
+                        <input type="email" placeholder="Email Address" required>
+                    </div>
+                    <div class="form-row">
+                        <textarea placeholder="Message" rows="5"></textarea>
+                    </div>
+                    <div class="form-submit">
+                        <button type="submit" class="btn btn-blue">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="site-footer">
+        <div class="container footer-top">
+            <!-- About -->
+            <div class="footer-col about-col">
+                <h4>About Us</h4>
+                <p>Vancouver Trans LLC, an ISO certified global freight agency, is based in Dubai, the commercial hub of
+                    the Gulf region. With first touch experience extending over a quarter of a century in total freight
+                    management and state of the art infrastructural capabilities, Vancouver Trans LLC provides
+                    comprehensive client-centric solutions with total customer satisfaction.</p>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="footer-col links-col">
+                <h4>Quick Access</h4>
+                <ul>
+                    <li><a href="#airfreight">Air Freight</a></li>
+                    <li><a href="#seafreight">Sea Freight</a></li>
+                    <li><a href="#landfreight">Land Freight</a></li>
+                    <li><a href="#warehouse">Warehousing and Distribution</a></li>
+                    <li><a href="#customshouse">Custom House Solutions</a></li>
+                    <li><a href="#projectfwd">Project Forwarding</a></li>
+                </ul>
+            </div>
+
+            <!-- Gallery -->
+            <div class="footer-col gallery-col">
+                <h4>Gallery</h4>
+                <div class="footer-gallery">
+                    <a href="#"><img src="assets/images/gallery/1-480x315.jpeg" alt="Gallery"></a>
+                    <a href="#"><img src="assets/images/gallery/2-480x319.jpeg" alt="Gallery"></a>
+                    <a href="#"><img src="assets/images/gallery/3-480x410.jpeg" alt="Gallery"></a>
+                    <a href="#"><img src="assets/images/gallery/4-480x360.jpeg" alt="Gallery"></a>
+                    <a href="#"><img src="assets/images/gallery/5-480x320.jpeg" alt="Gallery"></a>
+                    <a href="#"><img src="assets/images/gallery/6-480x270.jpeg" alt="Gallery"></a>
+                </div>
+            </div>
+
+            <!-- Contact Info -->
+            <div class="footer-col contact-info-col">
+                <h4>VANCOUVER TRANS LLC</h4>
+                <p>1304 Fahidi Heights,<br>Khalid bin Al Waleed Street,<br>P.O. Box 116463, Dubai, U A E</p>
+                <p>Tel: <a href="tel:0097143597200">+ 971 (4) 3597200</a> , 3597500</p>
+                <p>Email: <a href="mailto:mail@vctrans.net">mail@vctrans.net</a></p>
+
+                <div class="footer-badge">
+                    <img src="assets/images/iso-150x150.png" alt="ISO Certification" width="96">
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container footer-bottom-inner">
+                <p class="copyright">Designed by <a href="https://icomtechnologies.in/">ICOM Technologies</a></p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fas fa-rss"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
